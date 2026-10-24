@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Strange Morning — урок английского</title>
+  <meta name="description" content="Интерактивный урок английского: чтение адаптированной истории A Strange Morning, озвучка, квиз и карточки для повторения слов.">
+  <meta name="theme-color" content="#FDFBF7" id="meta-theme-color">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("morning-theme");
+        var theme = saved === "light" || saved === "dark"
+          ? saved
+          : (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Перейти к уроку</a>
+
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="i-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4.1"/>
+      <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/>
+    </symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24">
+      <path d="M20.2 14.2A8.5 8.5 0 0 1 9.8 3.8 8.5 8.5 0 1 0 20.2 14.2Z"/>
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24">
+      <path d="M8 5.2v13.6L19 12 8 5.2Z" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24">
+      <rect x="7" y="5" width="3.6" height="14" rx="1.1" fill="currentColor" stroke="none"/>
+      <rect x="13.4" y="5" width="3.6" height="14" rx="1.1" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24">
+      <path d="M4.5 12h14M13 6l6 6-6 6"/>
+    </symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24">
+      <path d="M6 4.5h12v16l-6-4-6 4v-16Z"/>
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6 6 18"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="m5 12.5 4.2 4.2L19 6.8"/>
+    </symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5"/>
+      <path d="m8.4 12.1 2.4 2.4 4.8-5"/>
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6 6 18"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5"/>
+      <path d="M12 7.5V12l3 2"/>
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24">
+      <path d="M3.5 5.5c2.9-.9 5.7-.4 8.5 1.7 2.8-2.1 5.6-2.6 8.5-1.7v13c-2.9-.9-5.7-.4-8.5 1.7-2.8-2.1-5.6-2.6-8.5-1.7v-13Z"/>
+      <path d="M12 7.2v13"/>
+    </symbol>
+    <symbol id="i-cards" viewBox="0 0 24 24">
+      <rect x="7" y="4" width="12" height="15" rx="2"/>
+      <path d="M5 7v11a2 2 0 0 0 2 2h9"/>
+    </symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24">
+      <path d="M20 11.5A8 8 0 1 0 18 17"/>
+      <path d="M20 5.5v6h-6"/>
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24">
+      <path d="M12 2.8c1.2 5.2 3.2 7.2 8.4 8.4-5.2 1.2-7.2 3.2-8.4 8.4-1.2-5.2-3.2-7.2-8.4-8.4 5.2-1.2 7.2-3.2 8.4-8.4Z" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24">
+      <path d="M4 9.5v5h3.7L13 18.5v-13L7.7 9.5H4Z"/>
+      <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/>
+    </symbol>
+    <symbol id="i-info" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5"/>
+      <path d="M12 11v5M12 7.8v.2"/>
+    </symbol>
+    <symbol id="i-flip" viewBox="0 0 24 24">
+      <path d="M4 8h13a3 3 0 0 1 3 3v1M20 16H7a3 3 0 0 1-3-3v-1"/>
+      <path d="m14 5 3 3-3 3M10 19l-3-3 3-3"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header" id="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="A Strange Morning — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><use href="#i-spark"></use></svg>
+        </span>
+        <span class="brand-name">morning<span>.</span></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Разделы урока">
+        <a href="#reading" data-nav-link="reading">Чтение</a>
+        <a href="#quiz" data-nav-link="quiz">Квиз</a>
+        <a href="#cards" data-nav-link="cards">Карточки</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="level-badge" title="Уровень по CEFR">A2</span>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Переключить на тёмную тему" title="Переключить тему">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sun"></use></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-moon"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-error shell" id="app-error" role="alert" hidden>
+    <div class="app-error-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-info"></use></svg></div>
+    <div>
+      <h2>Не удалось загрузить урок</h2>
+      <p id="app-error-text">Проверьте, что файл <code>data/lesson.json</code> на месте. Если вы открыли страницу двойным щелчком, браузер блокирует загрузку JSON — запустите локальный сервер (см. README.md).</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>English reading · lesson 01</p>
+        <div class="hero-kicker">
+          <span class="level-pill">A2</span>
+          <span class="kicker-sep" aria-hidden="true">·</span>
+          <span>адаптированная история</span>
+        </div>
+
+        <h1 id="hero-title">A Strange<br><span class="title-accent">Morning</span><span class="title-dot">.</span></h1>
+        <p class="hero-lead" id="hero-lead">Тихое утро, чашка чая и записка, которая меняет всё.</p>
+
+        <div class="hero-meta" aria-label="Параметры урока">
+          <span class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"></use></svg>
+            <span id="meta-minutes">~8 минут</span>
+          </span>
+          <span class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-book"></use></svg>
+            <span id="meta-words">214 слов</span>
+          </span>
+          <span class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-cards"></use></svg>
+            <span id="meta-cards">8 карточек</span>
+          </span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#reading">
+            Начать чтение
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+          </a>
+          <div class="completion-chip" id="hero-status">
+            <span class="completion-dot" aria-hidden="true"></span>
+            <span id="hero-status-text">Урок не пройден</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="clock-card">
+          <div class="clock-card-top">
+            <span class="clock-day">Tuesday</span>
+            <span class="clock-mood"><i></i>quiet</span>
+          </div>
+          <div class="clock-face">
+            <span class="clock-ticks"></span>
+            <span class="clock-hand clock-hand-hour"></span>
+            <span class="clock-hand clock-hand-minute"></span>
+            <span class="clock-center"></span>
+            <span class="clock-digital" id="hero-time">07:00</span>
+          </div>
+          <p class="clock-caption">the city is unusually quiet</p>
+        </div>
+
+        <div class="note-card">
+          <span class="note-tape"></span>
+          <p class="note-quote" id="hero-note">“Do not go outside today.”</p>
+          <p class="note-caption" id="hero-note-caption">записка на кухонном столе</p>
+        </div>
+
+        <span class="hero-sticker"><svg viewBox="0 0 24 24"><use href="#i-spark"></use></svg> A2 · mystery</span>
+      </div>
+    </section>
+
+    <section class="section shell" id="reading" aria-labelledby="reading-title">
+      <header class="section-head">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="step-number">01</span> Reading canvas</p>
+          <h2 id="reading-title">Читаем и разбираем</h2>
+          <p class="section-desc">Нажимайте на любое слово в тексте — рядом появится перевод, форма и контекст. Включите озвучку, чтобы читать вместе с диктором.</p>
+        </div>
+        <div class="section-side">
+          <span class="soft-badge" id="reading-level">A2</span>
+          <span class="soft-badge" id="reading-word-count">214 слов</span>
+        </div>
+      </header>
+
+      <div class="reader-card">
+        <div class="reader-top">
+          <span class="reader-tip">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spark"></use></svg>
+            Кликните на слово — это бесплатно
+          </span>
+          <span class="saved-count" id="saved-count-label">В словаре: <b id="saved-count">0</b></span>
+        </div>
+
+        <div class="tts-player" id="tts-player">
+          <button class="player-play" id="tts-toggle" type="button" aria-label="Слушать историю">
+            <svg class="icon icon-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"></use></svg>
+            <svg class="icon icon-pause" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pause"></use></svg>
+          </button>
+
+          <div class="player-info">
+            <div class="player-meta">
+              <span class="player-title" id="tts-status" aria-live="polite">Слушать историю</span>
+              <span class="player-position" id="tts-position">слово 0 / 214</span>
+            </div>
+            <div class="player-track" aria-hidden="true">
+              <span class="player-fill" id="tts-progress"></span>
+            </div>
+          </div>
+
+          <div class="player-speed" role="group" aria-label="Скорость озвучки">
+            <span class="speed-label">Скорость</span>
+            <div class="speed-pills">
+              <button type="button" data-rate="0.75" aria-pressed="false">0.75×</button>
+              <button type="button" data-rate="1" aria-pressed="true" class="is-active">1×</button>
+              <button type="button" data-rate="1.25" aria-pressed="false">1.25×</button>
+            </div>
+          </div>
+
+          <div class="player-wave" id="player-wave" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="story-title-row">
+          <span class="story-kicker">Short story · part one</span>
+          <h3>A Strange Morning</h3>
+        </div>
+
+        <div class="story" id="story" aria-label="Текст истории A Strange Morning">
+          <div class="story-loading" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="reader-bottom">
+          <p class="reader-note">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bookmark"></use></svg>
+            Сохранённые слова появятся здесь и останутся в браузере.
+          </p>
+          <button class="text-button" id="clear-saved" type="button" hidden>Очистить словарь</button>
+        </div>
+
+        <div class="saved-words" id="saved-words" hidden>
+          <div class="saved-head">
+            <span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bookmark"></use></svg> Мои слова</span>
+            <span class="saved-head-count" id="saved-head-count">0</span>
+          </div>
+          <div class="saved-chips" id="saved-chips"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="quiz" aria-labelledby="quiz-title">
+      <header class="section-head">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="step-number">02</span> Comprehension quiz</p>
+          <h2 id="quiz-title">Проверяем понимание</h2>
+          <p class="section-desc">Пять вопросов по истории. После ответа сразу увидите, верно ли выбрано, и короткое объяснение.</p>
+        </div>
+        <div class="section-side">
+          <span class="soft-badge" id="quiz-count-badge">5 вопросов</span>
+        </div>
+      </header>
+
+      <div class="quiz-panel">
+        <div class="quiz-summary">
+          <div class="score-dial" id="quiz-dial" style="--pct:0">
+            <span id="quiz-score">0 / 5</span>
+          </div>
+          <div class="quiz-summary-copy">
+            <h3 id="quiz-summary-title">Проверьте, как вы поняли историю</h3>
+            <p id="quiz-summary-text">Выберите один вариант в каждом вопросе. Результат сохранится в браузере.</p>
+          </div>
+          <span class="soft-badge quiz-status-badge" id="quiz-status-badge">Не начат</span>
+        </div>
+        <div class="quiz-progress" aria-hidden="true"><span id="quiz-progress-fill"></span></div>
+
+        <div class="quiz-list" id="quiz-list">
+          <div class="section-loading" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+
+        <div class="quiz-result" id="quiz-result" hidden>
+          <div class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check-circle"></use></svg></div>
+          <div>
+            <h3 id="quiz-result-title">Квиз пройден</h3>
+            <p id="quiz-result-text"></p>
+          </div>
+          <button class="btn btn-secondary btn-small" id="quiz-restart" type="button">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-refresh"></use></svg>
+            Пройти заново
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="cards" aria-labelledby="cards-title">
+      <header class="section-head">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="step-number">03</span> Spaced repetition</p>
+          <h2 id="cards-title">Слова остаются с вами</h2>
+          <p class="section-desc">Восемь ключевых слов из истории. Переверните карточку, проверьте себя и отметьте, помните ли вы слово.</p>
+        </div>
+        <div class="section-side">
+          <span class="soft-badge" id="cards-count-badge">8 карточек</span>
+        </div>
+      </header>
+
+      <div class="cards-layout">
+        <div class="deck">
+          <div class="deck-head">
+            <div class="deck-meta">
+              <span class="deck-label">Карточка</span>
+              <strong id="card-counter">1 / 8</strong>
+            </div>
+            <div class="deck-due" id="deck-due">
+              <span class="due-dot" aria-hidden="true"></span>
+              <span id="deck-due-text">к повторению сегодня</span>
+            </div>
+          </div>
+
+          <div class="deck-stage" id="deck-stage">
+            <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Перевернуть карточку" aria-pressed="false">
+              <div class="flashcard-inner">
+                <div class="flashcard-face flashcard-front" aria-hidden="false">
+                  <span class="face-kicker">Слово</span>
+                  <div class="word-main" id="card-word">strange</div>
+                  <div class="word-ipa" id="card-ipa">/streɪndʒ/</div>
+                  <span class="word-pos" id="card-pos">прилагательное</span>
+                  <span class="flip-hint">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flip"></use></svg>
+                    Нажмите, чтобы увидеть перевод
+                  </span>
+                </div>
+                <div class="flashcard-face flashcard-back" aria-hidden="true">
+                  <span class="face-kicker">Перевод</span>
+                  <div class="card-translation" id="card-translation">странный, необычный</div>
+                  <p class="card-example" id="card-example">Something felt strange.</p>
+                  <p class="card-example-ru" id="card-example-ru">Что-то казалось странным.</p>
+                  <span class="flip-hint">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flip"></use></svg>
+                    Нажмите, чтобы вернуться
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="deck-state" id="deck-state" hidden>
+              <div class="state-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check-circle"></use></svg></div>
+              <h3 id="deck-state-title">На сегодня всё</h3>
+              <p id="deck-state-text">Все карточки повторены. Загляните завтра — слова вернутся в нужный момент.</p>
+              <button class="btn btn-primary btn-small" id="deck-state-button" type="button">Повторить все слова</button>
+            </div>
+          </div>
+
+          <div class="deck-actions">
+            <button class="btn deck-btn deck-btn-forgot" id="card-forgot" type="button" disabled>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-refresh"></use></svg>
+              Забыл
+            </button>
+            <button class="btn deck-btn deck-btn-remember" id="card-remember" type="button" disabled>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"></use></svg>
+              Помню
+            </button>
+          </div>
+
+          <p class="deck-hint" id="deck-hint">Сначала переверните карточку, затем оцените себя.</p>
+          <div class="deck-dots" id="deck-dots" aria-hidden="true"></div>
+        </div>
+
+        <aside class="cards-aside">
+          <div class="aside-card">
+            <p class="eyebrow">Метод</p>
+            <h3>Интервальное повторение</h3>
+            <p>Слова возвращаются через всё большие промежутки времени. Это помогает не зубрить, а запоминать надолго.</p>
+            <div class="interval-list">
+              <div class="interval-row"><span class="interval-badge">1</span><span>Помню</span><span class="interval-arrow" aria-hidden="true">→</span><span>завтра</span></div>
+              <div class="interval-row"><span class="interval-badge">2</span><span>Помню</span><span class="interval-arrow" aria-hidden="true">→</span><span>через 3 дня</span></div>
+              <div class="interval-row"><span class="interval-badge">3</span><span>Помню</span><span class="interval-arrow" aria-hidden="true">→</span><span>через 7 дней</span></div>
+            </div>
+            <p class="interval-note">«Забыл» возвращает слово в повторение сегодня.</p>
+          </div>
+
+          <div class="aside-card aside-progress">
+            <div class="aside-progress-top">
+              <div>
+                <p class="eyebrow">Ваш прогресс</p>
+                <h3>Локально и без спешки</h3>
+              </div>
+              <span class="privacy-dot" aria-hidden="true"></span>
+            </div>
+            <div class="mini-stats">
+              <div><strong id="aside-saved">0</strong><span>слов в словаре</span></div>
+              <div><strong id="aside-quiz">—</strong><span>результат квиза</span></div>
+            </div>
+            <p class="privacy-note">Прогресс хранится только в этом браузере. Никаких аккаунтов и серверов.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p><span class="footer-brand">morning.</span> Lesson 01 · A Strange Morning</p>
+      <p class="footer-mid">Reading practice for curious minds</p>
+      <div class="footer-actions">
+        <button class="text-button" id="reset-progress" type="button">Сбросить прогресс</button>
+        <a class="footer-top" href="#top">Наверх <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-up"></use></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popover-scrim" id="popover-scrim" hidden></div>
+
+  <div class="word-popover" id="word-popover" role="dialog" aria-modal="false" aria-labelledby="popover-word" tabindex="-1" hidden>
+    <button class="popover-close" id="popover-close" type="button" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"></use></svg>
+    </button>
+
+    <div class="popover-head">
+      <div>
+        <h3 id="popover-word">strange</h3>
+        <p class="popover-meta" id="popover-meta">/streɪndʒ/ · прилагательное</p>
+      </div>
+      <span class="popover-level">A2</span>
+    </div>
+
+    <div class="popover-block">
+      <span class="popover-label">Перевод</span>
+      <p class="popover-translation" id="popover-translation">странный, необычный</p>
+      <p class="popover-base" id="popover-base" hidden></p>
+    </div>
+
+    <div class="popover-block popover-context-block">
+      <span class="popover-label">В контексте</span>
+      <p class="popover-context" id="popover-context"></p>
+    </div>
+
+    <div class="popover-block" id="popover-note-wrap" hidden>
+      <span class="popover-label">Почему так</span>
+      <p class="popover-note" id="popover-note"></p>
+    </div>
+
+    <button class="btn btn-primary popover-save" id="popover-save" type="button">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bookmark"></use></svg>
+      <span id="popover-save-label">Сохранить слово</span>
+    </button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <noscript>
+    <div class="noscript-message">Для интерактивного урока нужен JavaScript. Включите его в настройках браузера и обновите страницу.</div>
+  </noscript>
+
+  <script src="./assets/js/app.js" defer></script>
+</body>
+</html>

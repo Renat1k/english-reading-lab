@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "lesson": "01",
+    "title": "A Strange Morning",
+    "level": "A2",
+    "minutes": 8,
+    "subtitle": "Тихое утро, чашка чая и записка, которая меняет всё.",
+    "heroNote": "Do not go outside today.",
+    "heroNoteCaption": "записка на кухонном столе",
+    "heroTime": "07:00"
+  },
+  "story": {
+    "paragraphs": [
+      "Anna woke up at seven o'clock, but something felt strange. Her phone was dead, the radio was silent, and the street outside her window was completely quiet. Usually, the city was full of noise: buses, people, and the loud coffee shop on the corner.",
+      "She got out of bed and walked to the kitchen. A cup of tea was already on the table. It was still warm. Next to it, she noticed a small yellow note. The message was short: “Do not go outside today.”",
+      "Anna looked around the flat. Everything was in the right place, but the silence made her feel nervous. She opened the window. A woman in a red coat stood across the street. She was holding a white umbrella, although it was not raining. When Anna waved, the woman smiled and disappeared around the corner.",
+      "For a moment, Anna wanted to stay home. Then she heard a soft knock at the door. She looked through the small peephole. Nobody was there — only a brown envelope on the floor. Inside, she found a key and a map with one red circle. The circle was around the old library.",
+      "Anna put on her coat and discovered that her phone was working again. The screen showed one new message: “You have ten minutes.”"
+    ]
+  },
+  "dictionary": {
+    "a": "неопределённый артикль (один, какой-то)",
+    "across": {
+      "translation": "через; на другой стороне",
+      "note": "across the street — на другой стороне улицы."
+    },
+    "again": "снова, опять",
+    "already": "уже",
+    "although": "хотя",
+    "and": "и",
+    "anna": {
+      "translation": "Анна",
+      "pos": "имя",
+      "note": "Главная героиня истории."
+    },
+    "around": {
+      "translation": "вокруг; за",
+      "note": "around the corner — за углом."
+    },
+    "at": {
+      "translation": "в (о времени); у",
+      "note": "at seven o'clock — в семь часов."
+    },
+    "bed": "кровать",
+    "brown": "коричневый",
+    "buses": {
+      "translation": "автобусы",
+      "base": "bus",
+      "pos": "существительное"
+    },
+    "but": "но",
+    "circle": "круг",
+    "city": "город",
+    "coat": "пальто",
+    "coffee": "кофе",
+    "completely": "совершенно, полностью",
+    "corner": "угол",
+    "cup": "чашка",
+    "dead": {
+      "translation": "разряженный; мёртвый",
+      "pos": "прилагательное",
+      "note": "Her phone was dead — её телефон был разряжен."
+    },
+    "disappeared": {
+      "translation": "исчезла",
+      "base": "disappear",
+      "ipa": "/ˌdɪsəˈpɪə/",
+      "pos": "глагол",
+      "note": "Женщина улыбнулась и скрылась за углом, будто её и не было."
+    },
+    "discovered": {
+      "translation": "обнаружила",
+      "base": "discover",
+      "ipa": "/dɪˈskʌvə/",
+      "pos": "глагол",
+      "note": "Анна неожиданно поняла, что телефон снова работает."
+    },
+    "do": {
+      "translation": "делать; вспомогательный глагол",
+      "pos": "глагол",
+      "note": "Do not go outside — не выходи на улицу."
+    },
+    "door": "дверь",
+    "envelope": {
+      "translation": "конверт",
+      "ipa": "/ˈenvələʊp/",
+      "pos": "существительное",
+      "note": "Коричневый конверт лежал на полу, хотя за дверью никого не было."
+    },
+    "everything": "всё",
+    "feel": {
+      "translation": "чувствовать",
+      "pos": "глагол",
+      "note": "feel nervous — чувствовать себя тревожно."
+    },
+    "felt": {
+      "translation": "почувствовала; ощущала",
+      "base": "feel",
+      "pos": "глагол"
+    },
+    "flat": {
+      "translation": "квартира",
+      "pos": "существительное",
+      "note": "Британский вариант. В американском английском чаще говорят apartment."
+    },
+    "floor": "пол",
+    "for": {
+      "translation": "для; в течение",
+      "note": "for a moment — на мгновение."
+    },
+    "found": {
+      "translation": "нашла",
+      "base": "find",
+      "pos": "глагол"
+    },
+    "full": {
+      "translation": "полный",
+      "note": "full of noise — полный шума."
+    },
+    "go": "идти, ехать",
+    "got": {
+      "translation": "встала; оказалась",
+      "base": "get",
+      "pos": "глагол",
+      "note": "got out of bed — встала с кровати."
+    },
+    "have": {
+      "translation": "иметь",
+      "note": "You have ten minutes — у тебя десять минут."
+    },
+    "heard": {
+      "translation": "услышала",
+      "base": "hear",
+      "pos": "глагол"
+    },
+    "her": "её, ей",
+    "holding": {
+      "translation": "держала",
+      "base": "hold",
+      "pos": "глагол"
+    },
+    "home": "дом, дома",
+    "in": "в",
+    "inside": "внутри",
+    "it": "это; оно",
+    "key": "ключ",
+    "kitchen": "кухня",
+    "knock": "стук",
+    "library": "библиотека",
+    "looked": {
+      "translation": "посмотрела",
+      "base": "look",
+      "pos": "глагол",
+      "note": "looked around — осмотрелась."
+    },
+    "loud": "громкий",
+    "made": {
+      "translation": "заставила",
+      "base": "make",
+      "pos": "глагол",
+      "note": "made her feel nervous — заставила её почувствовать тревогу."
+    },
+    "map": "карта",
+    "message": {
+      "translation": "сообщение",
+      "ipa": "/ˈmesɪdʒ/",
+      "pos": "существительное",
+      "note": "Сначала это записка на столе, а в конце — сообщение на экране."
+    },
+    "minutes": {
+      "translation": "минуты",
+      "base": "minute",
+      "pos": "существительное"
+    },
+    "moment": "момент, мгновение",
+    "nervous": {
+      "translation": "тревожный; нервничающий",
+      "ipa": "/ˈnɜːvəs/",
+      "pos": "прилагательное",
+      "note": "feel nervous — нервничать, чувствовать тревогу."
+    },
+    "new": "новый",
+    "next": {
+      "translation": "следующий; рядом",
+      "note": "next to it — рядом с ним."
+    },
+    "nobody": "никто",
+    "noise": "шум",
+    "not": "не",
+    "note": "записка",
+    "noticed": {
+      "translation": "заметила",
+      "base": "notice",
+      "ipa": "/ˈnəʊtɪs/",
+      "pos": "глагол",
+      "note": "Анна обратила внимание на маленькую жёлтую записку."
+    },
+    "o'clock": {
+      "translation": "час (при указании времени)",
+      "note": "seven o'clock — семь часов."
+    },
+    "of": "предлог: из, от; принадлежности",
+    "old": "старый",
+    "on": "на",
+    "one": "один",
+    "only": "только",
+    "opened": {
+      "translation": "открыла",
+      "base": "open",
+      "pos": "глагол"
+    },
+    "out": {
+      "translation": "наружу; из",
+      "note": "out of bed — из кровати."
+    },
+    "outside": "снаружи, на улице",
+    "peephole": {
+      "translation": "глазок (в двери)",
+      "ipa": "/ˈpiːphəʊl/",
+      "pos": "существительное",
+      "note": "Маленькое стеклянное отверстие в двери, через которое видно, кто пришёл."
+    },
+    "people": "люди",
+    "phone": "телефон",
+    "place": "место",
+    "put": {
+      "translation": "положить; надеть",
+      "pos": "глагол",
+      "note": "put on her coat — надела пальто."
+    },
+    "quiet": {
+      "translation": "тихий, спокойный",
+      "ipa": "/ˈkwaɪət/",
+      "pos": "прилагательное",
+      "note": "В рассказе quiet — это непривычная, почти подозрительная тишина."
+    },
+    "radio": "радио",
+    "raining": {
+      "translation": "идёт дождь",
+      "base": "rain",
+      "pos": "глагол"
+    },
+    "red": "красный",
+    "right": {
+      "translation": "правильный; нужный",
+      "note": "the right place — нужное место."
+    },
+    "screen": "экран",
+    "seven": "семь",
+    "she": "она",
+    "shop": "магазин",
+    "short": "короткий",
+    "showed": {
+      "translation": "показал",
+      "base": "show",
+      "pos": "глагол"
+    },
+    "silence": "тишина",
+    "silent": "молчащий, беззвучный",
+    "small": "маленький",
+    "smiled": {
+      "translation": "улыбнулась",
+      "base": "smile",
+      "pos": "глагол"
+    },
+    "soft": "мягкий, тихий",
+    "something": "что-то",
+    "stay": "оставаться",
+    "still": "всё ещё",
+    "stood": {
+      "translation": "стояла",
+      "base": "stand",
+      "pos": "глагол"
+    },
+    "strange": {
+      "translation": "странный, необычный",
+      "ipa": "/streɪndʒ/",
+      "pos": "прилагательное",
+      "note": "С этого слова начинается загадка: внешне всё спокойно, но что-то не так."
+    },
+    "street": "улица",
+    "table": "стол",
+    "tea": "чай",
+    "ten": "десять",
+    "that": "что; тот",
+    "the": "определённый артикль",
+    "then": "затем, потом",
+    "there": {
+      "translation": "там",
+      "note": "В конструкции there was — «был, находился»."
+    },
+    "through": "через, сквозь",
+    "to": {
+      "translation": "к, в",
+      "note": "walked to the kitchen — пошла на кухню."
+    },
+    "today": "сегодня",
+    "umbrella": "зонт",
+    "up": {
+      "translation": "вверх",
+      "note": "woke up — проснулась."
+    },
+    "usually": "обычно",
+    "walked": {
+      "translation": "пошла, шла",
+      "base": "walk",
+      "pos": "глагол"
+    },
+    "wanted": {
+      "translation": "хотела",
+      "base": "want",
+      "pos": "глагол"
+    },
+    "warm": "тёплый",
+    "was": {
+      "translation": "был, была",
+      "base": "be",
+      "pos": "глагол"
+    },
+    "waved": {
+      "translation": "помахала",
+      "base": "wave",
+      "pos": "глагол"
+    },
+    "when": "когда",
+    "white": "белый",
+    "window": "окно",
+    "with": "с",
+    "woke": {
+      "translation": "проснулась",
+      "base": "wake",
+      "pos": "глагол",
+      "note": "woke up — проснулась."
+    },
+    "woman": "женщина",
+    "working": {
+      "translation": "работающий",
+      "base": "work",
+      "pos": "глагол",
+      "note": "was working — работал, был в рабочем состоянии."
+    },
+    "yellow": "жёлтый",
+    "you": "ты, вы"
+  },
+  "quiz": [
+    {
+      "question": "Что было странного в этом утре?",
+      "options": [
+        "Анна проснулась в незнакомой квартире.",
+        "Телефон не работал, радио молчало, а улица была непривычно тихой.",
+        "За окном шёл сильный дождь."
+      ],
+      "correct": 1,
+      "explanation": "В начале текста перечислены три странности: телефон был мёртв, радио молчало, а улица была совершенно тихой. Анна проснулась в своей квартире, а дождя не было."
+    },
+    {
+      "question": "Что Анна нашла на кухонном столе?",
+      "options": [
+        "Коричневый конверт.",
+        "Чашку чая и жёлтую записку.",
+        "Ключ и карту."
+      ],
+      "correct": 1,
+      "explanation": "На столе уже стояла чашка чая, а рядом с ней лежала маленькая жёлтая записка. Конверт и карта появятся позже."
+    },
+    {
+      "question": "Кого Анна увидела на другой стороне улицы?",
+      "options": [
+        "Женщину в красном пальто с белым зонтом.",
+        "Соседа с собакой.",
+        "Почтальона с коробкой."
+      ],
+      "correct": 0,
+      "explanation": "Напротив стояла женщина в красном пальто с белым зонтом, хотя дождя не было. Она улыбнулась Анне и исчезла за углом."
+    },
+    {
+      "question": "Что лежало на полу перед дверью?",
+      "options": [
+        "Старая газета.",
+        "Коричневый конверт.",
+        "Белый зонт."
+      ],
+      "correct": 1,
+      "explanation": "Анна посмотрела в глазок, но за дверью никого не было. На полу лежал только коричневый конверт."
+    },
+    {
+      "question": "Что Анна нашла внутри конверта?",
+      "options": [
+        "Ключ и карту с красным кругом.",
+        "Новый телефон.",
+        "Записку с десятью минутами."
+      ],
+      "correct": 0,
+      "explanation": "Внутри были ключ и карта с одним красным кругом. Круг был вокруг старой библиотеки, а про десять минут Анна узнала позже из сообщения."
+    }
+  ],
+  "flashcards": [
+    {
+      "word": "strange",
+      "translation": "странный, необычный",
+      "ipa": "/streɪndʒ/",
+      "pos": "прилагательное",
+      "example": "Something felt strange.",
+      "exampleRu": "Что-то казалось странным."
+    },
+    {
+      "word": "quiet",
+      "translation": "тихий, спокойный",
+      "ipa": "/ˈkwaɪət/",
+      "pos": "прилагательное",
+      "example": "The street was completely quiet.",
+      "exampleRu": "Улица была совершенно тихой."
+    },
+    {
+      "word": "notice",
+      "translation": "замечать, обращать внимание",
+      "ipa": "/ˈnəʊtɪs/",
+      "pos": "глагол",
+      "example": "She noticed a small yellow note.",
+      "exampleRu": "Она заметила маленькую жёлтую записку."
+    },
+    {
+      "word": "message",
+      "translation": "сообщение",
+      "ipa": "/ˈmesɪdʒ/",
+      "pos": "существительное",
+      "example": "The message was short.",
+      "exampleRu": "Сообщение было коротким."
+    },
+    {
+      "word": "nervous",
+      "translation": "тревожный, нервничающий",
+      "ipa": "/ˈnɜːvəs/",
+      "pos": "прилагательное",
+      "example": "The silence made her feel nervous.",
+      "exampleRu": "Тишина заставила её почувствовать тревогу."
+    },
+    {
+      "word": "disappear",
+      "translation": "исчезать",
+      "ipa": "/ˌdɪsəˈpɪə/",
+      "pos": "глагол",
+      "example": "The woman smiled and disappeared around the corner.",
+      "exampleRu": "Женщина улыбнулась и исчезла за углом."
+    },
+    {
+      "word": "envelope",
+      "translation": "конверт",
+      "ipa": "/ˈenvələʊp/",
+      "pos": "существительное",
+      "example": "Only a brown envelope was on the floor.",
+      "exampleRu": "На полу был только коричневый конверт."
+    },
+    {
+      "word": "discover",
+      "translation": "обнаруживать, узнавать",
+      "ipa": "/dɪˈskʌvə/",
+      "pos": "глагол",
+      "example": "She discovered that her phone was working again.",
+      "exampleRu": "Она обнаружила, что её телефон снова работает."
+    }
+  ]
+}
